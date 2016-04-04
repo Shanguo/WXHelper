@@ -1,0 +1,1 @@
+/Users/weiyueping/iOS/WXHelper/Build/Intermediates/ArchiveIntermediates/WXHelper/InstallationBuildProductsLocation/Applications/WXHelper.app

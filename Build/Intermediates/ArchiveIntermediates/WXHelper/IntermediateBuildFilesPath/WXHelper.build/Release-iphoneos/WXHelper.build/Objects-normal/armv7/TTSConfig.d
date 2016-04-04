@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/TTSConfig.m \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/Global/WXHelper.pch \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/Global/WXHelperDefine.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/SGSupport/SGGlobalVIew/SGGlobal.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/Core/THWebService/THWebService.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/Global/WXHGlobal.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/Core/WXCoreHelper.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/Core/WXAccess.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Category/UIView/UIView+Category.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/TTSConfig.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/iflyMSC.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyContact.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyDataUploader.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyDebugLog.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyISVDelegate.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyISVRecognizer.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyRecognizerView.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyRecognizerViewDelegate.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyResourceUtil.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySetting.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechConstant.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechError.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechEvaluator.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechEvaluatorDelegate.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechEvent.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechRecognizer.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechRecognizerDelegate.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechSynthesizer.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechSynthesizerDelegate.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechUnderstander.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlySpeechUtility.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyTextUnderstander.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyUserWords.h \
+  /Users/weiyueping/iOS/WXHelper/WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework/Headers/IFlyPcmRecorder.h

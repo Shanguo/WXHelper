@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942A12683B746FAD3D2A3199 /* libPods-WXHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C264AA7B04BC38812C0F422 /* libPods-WXHelper.a */; };
+		BD1BD91C1CAFB9F200D218BC /* WXNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BD91B1CAFB9F200D218BC /* WXNetService.m */; };
+		BD1BD91F1CAFBA0C00D218BC /* WXMsgService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BD91E1CAFBA0C00D218BC /* WXMsgService.m */; };
+		BD1BD9221CAFBA1F00D218BC /* WXVoiceService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BD9211CAFBA1F00D218BC /* WXVoiceService.m */; };
+		BD675FF91C82D1B700A0B207 /* WXHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD675FF81C82D1B700A0B207 /* WXHelperTests.m */; };
+		BD6760141C82D2BB00A0B207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD67600A1C82D2BB00A0B207 /* AppDelegate.m */; };
+		BD6760151C82D2BB00A0B207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD67600B1C82D2BB00A0B207 /* Assets.xcassets */; };
+		BD6760181C82D2BB00A0B207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6760101C82D2BB00A0B207 /* main.m */; };
+		BD7C400C1C8427110099BC68 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C3FEE1C8427110099BC68 /* readme.txt */; };
+		BD7C400D1C8427110099BC68 /* THDispatchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C3FF01C8427110099BC68 /* THDispatchQueue.m */; };
+		BD7C400E1C8427110099BC68 /* THDownloadWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C3FF21C8427110099BC68 /* THDownloadWebService.m */; };
+		BD7C400F1C8427110099BC68 /* THPostWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C3FF41C8427110099BC68 /* THPostWebService.m */; };
+		BD7C40101C8427110099BC68 /* THWebDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C3FF61C8427110099BC68 /* THWebDataCache.m */; };
+		BD7C40111C8427110099BC68 /* THWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C3FF91C8427110099BC68 /* THWebService.m */; };
+		BD7C40121C8427110099BC68 /* THWebUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C3FFB1C8427110099BC68 /* THWebUtility.m */; };
+		BD7C40141C8427110099BC68 /* WXHGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C40031C8427110099BC68 /* WXHGlobal.m */; };
+		BD7C40171C8427110099BC68 /* WXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C400A1C8427110099BC68 /* WXLoginViewController.m */; };
+		BD7C40181C8427110099BC68 /* WXLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7C400B1C8427110099BC68 /* WXLoginViewController.xib */; };
+		BD7C401D1C8427A80099BC68 /* WXAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C401A1C8427A80099BC68 /* WXAccess.m */; };
+		BD7C401E1C8427A80099BC68 /* WXCoreHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C401C1C8427A80099BC68 /* WXCoreHelper.m */; };
+		BD7C40231C842CD20099BC68 /* WXFriendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7C40221C842CD20099BC68 /* WXFriendsController.m */; };
+		BDA10D171CAE6EF40046C729 /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA10D161CAE6EF40046C729 /* TTSConfig.m */; };
+		BDA10D1A1CAE704B0046C729 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA10D191CAE704B0046C729 /* iflyMSC.framework */; };
+		BDA10D1F1CAE70AB0046C729 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA10D1E1CAE70AB0046C729 /* libz.tbd */; };
+		BDA10D221CAE71040046C729 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA10D211CAE71040046C729 /* AddressBook.framework */; };
+		BDA10D241CAE710F0046C729 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA10D231CAE710F0046C729 /* SystemConfiguration.framework */; };
+		BDA10D261CAE711D0046C729 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA10D251CAE711D0046C729 /* CoreTelephony.framework */; };
+		BDAC5A271CB0C61F00EA3370 /* WXCoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAC5A261CB0C61F00EA3370 /* WXCoreModel.m */; };
+		BDB464281C894956000538EE /* WXFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB464271C894956000538EE /* WXFriendsModel.m */; };
+		BDB758431CACE98300C543DB /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB758381CACE98300C543DB /* Emoji.m */; };
+		BDB758441CACE98300C543DB /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7583A1CACE98300C543DB /* EmojiEmoticons.m */; };
+		BDB758451CACE98300C543DB /* EmojiMapSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7583C1CACE98300C543DB /* EmojiMapSymbols.m */; };
+		BDB758461CACE98300C543DB /* EmojiPictographs.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7583E1CACE98300C543DB /* EmojiPictographs.m */; };
+		BDB758471CACE98300C543DB /* EmojiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB758401CACE98300C543DB /* EmojiTransport.m */; };
+		BDB758661CAD1C2800C543DB /* SGImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB758651CAD1C2800C543DB /* SGImageBrowser.m */; };
+		BDB7586B1CAD344A00C543DB /* VedioPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB7586A1CAD344A00C543DB /* VedioPlayViewController.m */; };
+		BDBAEAEE1C902C1100B45C01 /* WXAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBAEAED1C902C1100B45C01 /* WXAudio.m */; };
+		BDC364CC1C8EE6FF0063231B /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364BC1C8EE6FF0063231B /* UIView+Category.m */; };
+		BDC364EC1C8F2CA10063231B /* UIButton+MBIBnspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364DD1C8F2CA10063231B /* UIButton+MBIBnspectable.m */; };
+		BDC364ED1C8F2CA10063231B /* UILabel+MBIBnsepectable.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364DF1C8F2CA10063231B /* UILabel+MBIBnsepectable.m */; };
+		BDC364EE1C8F2CA10063231B /* UIView+MBIBnspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364E11C8F2CA10063231B /* UIView+MBIBnspectable.m */; };
+		BDC364F01C8F2CA10063231B /* SGGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364E81C8F2CA10063231B /* SGGlobal.m */; };
+		BDC364F11C8F2CA10063231B /* SGMessageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364EB1C8F2CA10063231B /* SGMessageBar.m */; };
+		BDC364F51C8F2E3A0063231B /* SGSoundVibrate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364F41C8F2E3A0063231B /* SGSoundVibrate.m */; };
+		BDC364F81C8F310D0063231B /* WXService.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC364F71C8F310D0063231B /* WXService.m */; };
+		BDC364FA1C8FC7400063231B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC364F91C8FC7400063231B /* AudioToolbox.framework */; };
+		BDCFA8611C85747E00DABDC9 /* WXChatRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFA85F1C85747E00DABDC9 /* WXChatRoomController.m */; };
+		BDCFA86B1C87E75000DABDC9 /* WXContact.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFA86A1C87E75000DABDC9 /* WXContact.m */; };
+		BDCFA86E1C87E77A00DABDC9 /* WXMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFA86D1C87E77A00DABDC9 /* WXMessage.m */; };
+		BDE1C5E41C8C8B210008AAE0 /* WXFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE1C5E21C8C8B210008AAE0 /* WXFriendCell.m */; };
+		BDE1C5E51C8C8B210008AAE0 /* WXFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE1C5E31C8C8B210008AAE0 /* WXFriendCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD675FF51C82D1B700A0B207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD675FD31C82D1B700A0B207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD675FDA1C82D1B700A0B207;
+			remoteInfo = WXHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C264AA7B04BC38812C0F422 /* libPods-WXHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94B98BB5BFA014218FDC818 /* Pods-WXHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXHelper/Pods-WXHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		BD1BD91A1CAFB9F200D218BC /* WXNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNetService.h; sourceTree = "<group>"; };
+		BD1BD91B1CAFB9F200D218BC /* WXNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNetService.m; sourceTree = "<group>"; };
+		BD1BD91D1CAFBA0C00D218BC /* WXMsgService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMsgService.h; sourceTree = "<group>"; };
+		BD1BD91E1CAFBA0C00D218BC /* WXMsgService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMsgService.m; sourceTree = "<group>"; };
+		BD1BD9201CAFBA1F00D218BC /* WXVoiceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXVoiceService.h; sourceTree = "<group>"; };
+		BD1BD9211CAFBA1F00D218BC /* WXVoiceService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXVoiceService.m; sourceTree = "<group>"; };
+		BD675FDB1C82D1B700A0B207 /* WXHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD675FEF1C82D1B700A0B207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		BD675FF41C82D1B700A0B207 /* WXHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD675FF81C82D1B700A0B207 /* WXHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXHelperTests.m; sourceTree = "<group>"; };
+		BD675FFA1C82D1B700A0B207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6760091C82D2BB00A0B207 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "WXHelper/Supporting Files/AppDelegate.h"; sourceTree = "<group>"; };
+		BD67600A1C82D2BB00A0B207 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "WXHelper/Supporting Files/AppDelegate.m"; sourceTree = "<group>"; };
+		BD67600B1C82D2BB00A0B207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6760101C82D2BB00A0B207 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD7C3FEE1C8427110099BC68 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		BD7C3FEF1C8427110099BC68 /* THDispatchQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDispatchQueue.h; sourceTree = "<group>"; };
+		BD7C3FF01C8427110099BC68 /* THDispatchQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDispatchQueue.m; sourceTree = "<group>"; };
+		BD7C3FF11C8427110099BC68 /* THDownloadWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDownloadWebService.h; sourceTree = "<group>"; };
+		BD7C3FF21C8427110099BC68 /* THDownloadWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDownloadWebService.m; sourceTree = "<group>"; };
+		BD7C3FF31C8427110099BC68 /* THPostWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPostWebService.h; sourceTree = "<group>"; };
+		BD7C3FF41C8427110099BC68 /* THPostWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPostWebService.m; sourceTree = "<group>"; };
+		BD7C3FF51C8427110099BC68 /* THWebDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebDataCache.h; sourceTree = "<group>"; };
+		BD7C3FF61C8427110099BC68 /* THWebDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWebDataCache.m; sourceTree = "<group>"; };
+		BD7C3FF71C8427110099BC68 /* THWebDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebDefine.h; sourceTree = "<group>"; };
+		BD7C3FF81C8427110099BC68 /* THWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebService.h; sourceTree = "<group>"; };
+		BD7C3FF91C8427110099BC68 /* THWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWebService.m; sourceTree = "<group>"; };
+		BD7C3FFA1C8427110099BC68 /* THWebUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebUtility.h; sourceTree = "<group>"; };
+		BD7C3FFB1C8427110099BC68 /* THWebUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWebUtility.m; sourceTree = "<group>"; };
+		BD7C40001C8427110099BC68 /* WXHelper.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHelper.pch; sourceTree = "<group>"; };
+		BD7C40011C8427110099BC68 /* WXHelperDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHelperDefine.h; sourceTree = "<group>"; };
+		BD7C40021C8427110099BC68 /* WXHGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXHGlobal.h; sourceTree = "<group>"; };
+		BD7C40031C8427110099BC68 /* WXHGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXHGlobal.m; sourceTree = "<group>"; };
+		BD7C40091C8427110099BC68 /* WXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXLoginViewController.h; sourceTree = "<group>"; };
+		BD7C400A1C8427110099BC68 /* WXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXLoginViewController.m; sourceTree = "<group>"; };
+		BD7C400B1C8427110099BC68 /* WXLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXLoginViewController.xib; sourceTree = "<group>"; };
+		BD7C40191C8427A80099BC68 /* WXAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAccess.h; sourceTree = "<group>"; };
+		BD7C401A1C8427A80099BC68 /* WXAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAccess.m; sourceTree = "<group>"; };
+		BD7C401B1C8427A80099BC68 /* WXCoreHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCoreHelper.h; sourceTree = "<group>"; };
+		BD7C401C1C8427A80099BC68 /* WXCoreHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCoreHelper.m; sourceTree = "<group>"; };
+		BD7C40211C842CD20099BC68 /* WXFriendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFriendsController.h; sourceTree = "<group>"; };
+		BD7C40221C842CD20099BC68 /* WXFriendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFriendsController.m; sourceTree = "<group>"; };
+		BD7C40271C8438FA0099BC68 /* WXURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXURL.h; sourceTree = "<group>"; };
+		BDA10D151CAE6EF40046C729 /* TTSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
+		BDA10D161CAE6EF40046C729 /* TTSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
+		BDA10D191CAE704B0046C729 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = WXHelper/ThirdPart/Tools/IFly/iflyMSC.framework; sourceTree = "<group>"; };
+		BDA10D1E1CAE70AB0046C729 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BDA10D211CAE71040046C729 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BDA10D231CAE710F0046C729 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BDA10D251CAE711D0046C729 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BDAC5A251CB0C61F00EA3370 /* WXCoreModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCoreModel.h; sourceTree = "<group>"; };
+		BDAC5A261CB0C61F00EA3370 /* WXCoreModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCoreModel.m; sourceTree = "<group>"; };
+		BDB464261C894956000538EE /* WXFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFriendsModel.h; sourceTree = "<group>"; };
+		BDB464271C894956000538EE /* WXFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFriendsModel.m; sourceTree = "<group>"; };
+		BDB758371CACE98300C543DB /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
+		BDB758381CACE98300C543DB /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoji.m; sourceTree = "<group>"; };
+		BDB758391CACE98300C543DB /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiEmoticons.h; sourceTree = "<group>"; };
+		BDB7583A1CACE98300C543DB /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiEmoticons.m; sourceTree = "<group>"; };
+		BDB7583B1CACE98300C543DB /* EmojiMapSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiMapSymbols.h; sourceTree = "<group>"; };
+		BDB7583C1CACE98300C543DB /* EmojiMapSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiMapSymbols.m; sourceTree = "<group>"; };
+		BDB7583D1CACE98300C543DB /* EmojiPictographs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiPictographs.h; sourceTree = "<group>"; };
+		BDB7583E1CACE98300C543DB /* EmojiPictographs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiPictographs.m; sourceTree = "<group>"; };
+		BDB7583F1CACE98300C543DB /* EmojiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTransport.h; sourceTree = "<group>"; };
+		BDB758401CACE98300C543DB /* EmojiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiTransport.m; sourceTree = "<group>"; };
+		BDB758641CAD1C2700C543DB /* SGImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGImageBrowser.h; sourceTree = "<group>"; };
+		BDB758651CAD1C2800C543DB /* SGImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGImageBrowser.m; sourceTree = "<group>"; };
+		BDB758691CAD344A00C543DB /* VedioPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VedioPlayViewController.h; sourceTree = "<group>"; };
+		BDB7586A1CAD344A00C543DB /* VedioPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VedioPlayViewController.m; sourceTree = "<group>"; };
+		BDBAEAEC1C902C1100B45C01 /* WXAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXAudio.h; sourceTree = "<group>"; };
+		BDBAEAED1C902C1100B45C01 /* WXAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXAudio.m; sourceTree = "<group>"; };
+		BDC364BB1C8EE6FF0063231B /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		BDC364BC1C8EE6FF0063231B /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		BDC364DC1C8F2CA10063231B /* UIButton+MBIBnspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MBIBnspectable.h"; sourceTree = "<group>"; };
+		BDC364DD1C8F2CA10063231B /* UIButton+MBIBnspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MBIBnspectable.m"; sourceTree = "<group>"; };
+		BDC364DE1C8F2CA10063231B /* UILabel+MBIBnsepectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MBIBnsepectable.h"; sourceTree = "<group>"; };
+		BDC364DF1C8F2CA10063231B /* UILabel+MBIBnsepectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MBIBnsepectable.m"; sourceTree = "<group>"; };
+		BDC364E01C8F2CA10063231B /* UIView+MBIBnspectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MBIBnspectable.h"; sourceTree = "<group>"; };
+		BDC364E11C8F2CA10063231B /* UIView+MBIBnspectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MBIBnspectable.m"; sourceTree = "<group>"; };
+		BDC364E71C8F2CA10063231B /* SGGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGlobal.h; sourceTree = "<group>"; };
+		BDC364E81C8F2CA10063231B /* SGGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGlobal.m; sourceTree = "<group>"; };
+		BDC364EA1C8F2CA10063231B /* SGMessageBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGMessageBar.h; sourceTree = "<group>"; };
+		BDC364EB1C8F2CA10063231B /* SGMessageBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGMessageBar.m; sourceTree = "<group>"; };
+		BDC364F31C8F2E3A0063231B /* SGSoundVibrate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSoundVibrate.h; sourceTree = "<group>"; };
+		BDC364F41C8F2E3A0063231B /* SGSoundVibrate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSoundVibrate.m; sourceTree = "<group>"; };
+		BDC364F61C8F310D0063231B /* WXService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXService.h; sourceTree = "<group>"; };
+		BDC364F71C8F310D0063231B /* WXService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXService.m; sourceTree = "<group>"; };
+		BDC364F91C8FC7400063231B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BDCFA85E1C85747E00DABDC9 /* WXChatRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXChatRoomController.h; sourceTree = "<group>"; };
+		BDCFA85F1C85747E00DABDC9 /* WXChatRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXChatRoomController.m; sourceTree = "<group>"; };
+		BDCFA8691C87E75000DABDC9 /* WXContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXContact.h; sourceTree = "<group>"; };
+		BDCFA86A1C87E75000DABDC9 /* WXContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXContact.m; sourceTree = "<group>"; };
+		BDCFA86C1C87E77A00DABDC9 /* WXMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXMessage.h; sourceTree = "<group>"; };
+		BDCFA86D1C87E77A00DABDC9 /* WXMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXMessage.m; sourceTree = "<group>"; };
+		BDE1C5E11C8C8B210008AAE0 /* WXFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXFriendCell.h; sourceTree = "<group>"; };
+		BDE1C5E21C8C8B210008AAE0 /* WXFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXFriendCell.m; sourceTree = "<group>"; };
+		BDE1C5E31C8C8B210008AAE0 /* WXFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WXFriendCell.xib; sourceTree = "<group>"; };
+		D9BEE6328A67AB8B54AE92ED /* Pods-WXHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXHelper/Pods-WXHelper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD675FD81C82D1B700A0B207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA10D261CAE711D0046C729 /* CoreTelephony.framework in Frameworks */,
+				BDA10D241CAE710F0046C729 /* SystemConfiguration.framework in Frameworks */,
+				BDA10D221CAE71040046C729 /* AddressBook.framework in Frameworks */,
+				BDA10D1F1CAE70AB0046C729 /* libz.tbd in Frameworks */,
+				BDA10D1A1CAE704B0046C729 /* iflyMSC.framework in Frameworks */,
+				BDC364FA1C8FC7400063231B /* AudioToolbox.framework in Frameworks */,
+				942A12683B746FAD3D2A3199 /* libPods-WXHelper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD675FF11C82D1B700A0B207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA33723C42025E7337DC364F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDA10D251CAE711D0046C729 /* CoreTelephony.framework */,
+				BDA10D231CAE710F0046C729 /* SystemConfiguration.framework */,
+				BDA10D211CAE71040046C729 /* AddressBook.framework */,
+				BDA10D1E1CAE70AB0046C729 /* libz.tbd */,
+				BDA10D191CAE704B0046C729 /* iflyMSC.framework */,
+				BDC364F91C8FC7400063231B /* AudioToolbox.framework */,
+				5C264AA7B04BC38812C0F422 /* libPods-WXHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD675FD21C82D1B700A0B207 = {
+			isa = PBXGroup;
+			children = (
+				BD6760091C82D2BB00A0B207 /* AppDelegate.h */,
+				BD67600A1C82D2BB00A0B207 /* AppDelegate.m */,
+				BD675FDD1C82D1B700A0B207 /* WXHelper */,
+				BD675FF71C82D1B700A0B207 /* WXHelperTests */,
+				BD675FDC1C82D1B700A0B207 /* Products */,
+				CF07D90C5DCA425275E3648D /* Pods */,
+				BA33723C42025E7337DC364F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD675FDC1C82D1B700A0B207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD675FDB1C82D1B700A0B207 /* WXHelper.app */,
+				BD675FF41C82D1B700A0B207 /* WXHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD675FDD1C82D1B700A0B207 /* WXHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFA8681C87E70C00DABDC9 /* Model */,
+				BD7C3FEC1C8427110099BC68 /* Core */,
+				BD7C3FFF1C8427110099BC68 /* Global */,
+				BD6760111C82D2BB00A0B207 /* ThirdPart */,
+				BD7C40041C8427110099BC68 /* Module */,
+				BD6760081C82D2BB00A0B207 /* Supporting Files */,
+			);
+			path = WXHelper;
+			sourceTree = "<group>";
+		};
+		BD675FF71C82D1B700A0B207 /* WXHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD675FF81C82D1B700A0B207 /* WXHelperTests.m */,
+				BD675FFA1C82D1B700A0B207 /* Info.plist */,
+			);
+			path = WXHelperTests;
+			sourceTree = "<group>";
+		};
+		BD6760081C82D2BB00A0B207 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD67600B1C82D2BB00A0B207 /* Assets.xcassets */,
+				BD6760101C82D2BB00A0B207 /* main.m */,
+				BD675FEF1C82D1B700A0B207 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD6760111C82D2BB00A0B207 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364DA1C8F2CA10063231B /* Tools */,
+				BDC364B91C8EE6FF0063231B /* Category */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		BD7C3FEC1C8427110099BC68 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C3FED1C8427110099BC68 /* THWebService */,
+				BD7C40191C8427A80099BC68 /* WXAccess.h */,
+				BD7C401A1C8427A80099BC68 /* WXAccess.m */,
+				BD7C401B1C8427A80099BC68 /* WXCoreHelper.h */,
+				BD7C401C1C8427A80099BC68 /* WXCoreHelper.m */,
+				BDC364F61C8F310D0063231B /* WXService.h */,
+				BDC364F71C8F310D0063231B /* WXService.m */,
+				BDBAEAEC1C902C1100B45C01 /* WXAudio.h */,
+				BDBAEAED1C902C1100B45C01 /* WXAudio.m */,
+				BD1BD91A1CAFB9F200D218BC /* WXNetService.h */,
+				BD1BD91B1CAFB9F200D218BC /* WXNetService.m */,
+				BD1BD91D1CAFBA0C00D218BC /* WXMsgService.h */,
+				BD1BD91E1CAFBA0C00D218BC /* WXMsgService.m */,
+				BD1BD9201CAFBA1F00D218BC /* WXVoiceService.h */,
+				BD1BD9211CAFBA1F00D218BC /* WXVoiceService.m */,
+				BDAC5A251CB0C61F00EA3370 /* WXCoreModel.h */,
+				BDAC5A261CB0C61F00EA3370 /* WXCoreModel.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BD7C3FED1C8427110099BC68 /* THWebService */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C3FEE1C8427110099BC68 /* readme.txt */,
+				BD7C3FEF1C8427110099BC68 /* THDispatchQueue.h */,
+				BD7C3FF01C8427110099BC68 /* THDispatchQueue.m */,
+				BD7C3FF11C8427110099BC68 /* THDownloadWebService.h */,
+				BD7C3FF21C8427110099BC68 /* THDownloadWebService.m */,
+				BD7C3FF31C8427110099BC68 /* THPostWebService.h */,
+				BD7C3FF41C8427110099BC68 /* THPostWebService.m */,
+				BD7C3FF51C8427110099BC68 /* THWebDataCache.h */,
+				BD7C3FF61C8427110099BC68 /* THWebDataCache.m */,
+				BD7C3FF71C8427110099BC68 /* THWebDefine.h */,
+				BD7C3FF81C8427110099BC68 /* THWebService.h */,
+				BD7C3FF91C8427110099BC68 /* THWebService.m */,
+				BD7C3FFA1C8427110099BC68 /* THWebUtility.h */,
+				BD7C3FFB1C8427110099BC68 /* THWebUtility.m */,
+			);
+			path = THWebService;
+			sourceTree = "<group>";
+		};
+		BD7C3FFF1C8427110099BC68 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C40001C8427110099BC68 /* WXHelper.pch */,
+				BD7C40011C8427110099BC68 /* WXHelperDefine.h */,
+				BD7C40021C8427110099BC68 /* WXHGlobal.h */,
+				BD7C40031C8427110099BC68 /* WXHGlobal.m */,
+				BD7C40271C8438FA0099BC68 /* WXURL.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BD7C40041C8427110099BC68 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C401F1C842C910099BC68 /* ChatRoom */,
+				BD7C40201C842C910099BC68 /* FriendList */,
+				BD7C40051C8427110099BC68 /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		BD7C40051C8427110099BC68 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C40091C8427110099BC68 /* WXLoginViewController.h */,
+				BD7C400A1C8427110099BC68 /* WXLoginViewController.m */,
+				BD7C400B1C8427110099BC68 /* WXLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BD7C401F1C842C910099BC68 /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFA85E1C85747E00DABDC9 /* WXChatRoomController.h */,
+				BDCFA85F1C85747E00DABDC9 /* WXChatRoomController.m */,
+			);
+			path = ChatRoom;
+			sourceTree = "<group>";
+		};
+		BD7C40201C842C910099BC68 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C40211C842CD20099BC68 /* WXFriendsController.h */,
+				BD7C40221C842CD20099BC68 /* WXFriendsController.m */,
+				BDB464261C894956000538EE /* WXFriendsModel.h */,
+				BDB464271C894956000538EE /* WXFriendsModel.m */,
+				BDE1C5E11C8C8B210008AAE0 /* WXFriendCell.h */,
+				BDE1C5E21C8C8B210008AAE0 /* WXFriendCell.m */,
+				BDE1C5E31C8C8B210008AAE0 /* WXFriendCell.xib */,
+			);
+			path = FriendList;
+			sourceTree = "<group>";
+		};
+		BDA10D141CAE6EF40046C729 /* IFly */ = {
+			isa = PBXGroup;
+			children = (
+				BDA10D151CAE6EF40046C729 /* TTSConfig.h */,
+				BDA10D161CAE6EF40046C729 /* TTSConfig.m */,
+			);
+			path = IFly;
+			sourceTree = "<group>";
+		};
+		BDB758361CACE98300C543DB /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				BDB758371CACE98300C543DB /* Emoji.h */,
+				BDB758381CACE98300C543DB /* Emoji.m */,
+				BDB758391CACE98300C543DB /* EmojiEmoticons.h */,
+				BDB7583A1CACE98300C543DB /* EmojiEmoticons.m */,
+				BDB7583B1CACE98300C543DB /* EmojiMapSymbols.h */,
+				BDB7583C1CACE98300C543DB /* EmojiMapSymbols.m */,
+				BDB7583D1CACE98300C543DB /* EmojiPictographs.h */,
+				BDB7583E1CACE98300C543DB /* EmojiPictographs.m */,
+				BDB7583F1CACE98300C543DB /* EmojiTransport.h */,
+				BDB758401CACE98300C543DB /* EmojiTransport.m */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		BDB758631CAD1BF200C543DB /* SGImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				BDB758641CAD1C2700C543DB /* SGImageBrowser.h */,
+				BDB758651CAD1C2800C543DB /* SGImageBrowser.m */,
+			);
+			path = SGImageBrowser;
+			sourceTree = "<group>";
+		};
+		BDB758681CAD344A00C543DB /* VedioPalyer */ = {
+			isa = PBXGroup;
+			children = (
+				BDB758691CAD344A00C543DB /* VedioPlayViewController.h */,
+				BDB7586A1CAD344A00C543DB /* VedioPlayViewController.m */,
+			);
+			path = VedioPalyer;
+			sourceTree = "<group>";
+		};
+		BDC364B91C8EE6FF0063231B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364BA1C8EE6FF0063231B /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BDC364BA1C8EE6FF0063231B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364BB1C8EE6FF0063231B /* UIView+Category.h */,
+				BDC364BC1C8EE6FF0063231B /* UIView+Category.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BDC364DA1C8F2CA10063231B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BDA10D141CAE6EF40046C729 /* IFly */,
+				BDB758681CAD344A00C543DB /* VedioPalyer */,
+				BDB758361CACE98300C543DB /* Emoji */,
+				BDC364DB1C8F2CA10063231B /* MBBaseView */,
+				BDC364E51C8F2CA10063231B /* SGSupport */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BDC364DB1C8F2CA10063231B /* MBBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364DC1C8F2CA10063231B /* UIButton+MBIBnspectable.h */,
+				BDC364DD1C8F2CA10063231B /* UIButton+MBIBnspectable.m */,
+				BDC364DE1C8F2CA10063231B /* UILabel+MBIBnsepectable.h */,
+				BDC364DF1C8F2CA10063231B /* UILabel+MBIBnsepectable.m */,
+				BDC364E01C8F2CA10063231B /* UIView+MBIBnspectable.h */,
+				BDC364E11C8F2CA10063231B /* UIView+MBIBnspectable.m */,
+			);
+			path = MBBaseView;
+			sourceTree = "<group>";
+		};
+		BDC364E51C8F2CA10063231B /* SGSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BDB758631CAD1BF200C543DB /* SGImageBrowser */,
+				BDC364F21C8F2E3A0063231B /* SGSoundVibrate */,
+				BDC364E61C8F2CA10063231B /* SGGlobalVIew */,
+				BDC364E91C8F2CA10063231B /* SGMessageBar */,
+			);
+			path = SGSupport;
+			sourceTree = "<group>";
+		};
+		BDC364E61C8F2CA10063231B /* SGGlobalVIew */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364E71C8F2CA10063231B /* SGGlobal.h */,
+				BDC364E81C8F2CA10063231B /* SGGlobal.m */,
+			);
+			path = SGGlobalVIew;
+			sourceTree = "<group>";
+		};
+		BDC364E91C8F2CA10063231B /* SGMessageBar */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364EA1C8F2CA10063231B /* SGMessageBar.h */,
+				BDC364EB1C8F2CA10063231B /* SGMessageBar.m */,
+			);
+			path = SGMessageBar;
+			sourceTree = "<group>";
+		};
+		BDC364F21C8F2E3A0063231B /* SGSoundVibrate */ = {
+			isa = PBXGroup;
+			children = (
+				BDC364F31C8F2E3A0063231B /* SGSoundVibrate.h */,
+				BDC364F41C8F2E3A0063231B /* SGSoundVibrate.m */,
+			);
+			path = SGSoundVibrate;
+			sourceTree = "<group>";
+		};
+		BDCFA8681C87E70C00DABDC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDCFA8691C87E75000DABDC9 /* WXContact.h */,
+				BDCFA86A1C87E75000DABDC9 /* WXContact.m */,
+				BDCFA86C1C87E77A00DABDC9 /* WXMessage.h */,
+				BDCFA86D1C87E77A00DABDC9 /* WXMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF07D90C5DCA425275E3648D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B94B98BB5BFA014218FDC818 /* Pods-WXHelper.debug.xcconfig */,
+				D9BEE6328A67AB8B54AE92ED /* Pods-WXHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD675FDA1C82D1B700A0B207 /* WXHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD675FFD1C82D1B700A0B207 /* Build configuration list for PBXNativeTarget "WXHelper" */;
+			buildPhases = (
+				D42FC29F8E44FFB2A6E75666 /* Check Pods Manifest.lock */,
+				BD675FD71C82D1B700A0B207 /* Sources */,
+				BD675FD81C82D1B700A0B207 /* Frameworks */,
+				BD675FD91C82D1B700A0B207 /* Resources */,
+				D959FE3BFD8F0104AC32C1E4 /* Embed Pods Frameworks */,
+				CEA0D9F0E9C8DFD1D0CF3B05 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXHelper;
+			productName = WXHelper;
+			productReference = BD675FDB1C82D1B700A0B207 /* WXHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD675FF31C82D1B700A0B207 /* WXHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6760001C82D1B700A0B207 /* Build configuration list for PBXNativeTarget "WXHelperTests" */;
+			buildPhases = (
+				BD675FF01C82D1B700A0B207 /* Sources */,
+				BD675FF11C82D1B700A0B207 /* Frameworks */,
+				BD675FF21C82D1B700A0B207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD675FF61C82D1B700A0B207 /* PBXTargetDependency */,
+			);
+			name = WXHelperTests;
+			productName = WXHelperTests;
+			productReference = BD675FF41C82D1B700A0B207 /* WXHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD675FD31C82D1B700A0B207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WX;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "山国";
+				TargetAttributes = {
+					BD675FDA1C82D1B700A0B207 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = NH4A83L8JB;
+					};
+					BD675FF31C82D1B700A0B207 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD675FDA1C82D1B700A0B207;
+					};
+				};
+			};
+			buildConfigurationList = BD675FD61C82D1B700A0B207 /* Build configuration list for PBXProject "WXHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD675FD21C82D1B700A0B207;
+			productRefGroup = BD675FDC1C82D1B700A0B207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD675FDA1C82D1B700A0B207 /* WXHelper */,
+				BD675FF31C82D1B700A0B207 /* WXHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD675FD91C82D1B700A0B207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE1C5E51C8C8B210008AAE0 /* WXFriendCell.xib in Resources */,
+				BD7C40181C8427110099BC68 /* WXLoginViewController.xib in Resources */,
+				BD7C400C1C8427110099BC68 /* readme.txt in Resources */,
+				BD6760151C82D2BB00A0B207 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD675FF21C82D1B700A0B207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CEA0D9F0E9C8DFD1D0CF3B05 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXHelper/Pods-WXHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42FC29F8E44FFB2A6E75666 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D959FE3BFD8F0104AC32C1E4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXHelper/Pods-WXHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD675FD71C82D1B700A0B207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1BD91C1CAFB9F200D218BC /* WXNetService.m in Sources */,
+				BD7C401E1C8427A80099BC68 /* WXCoreHelper.m in Sources */,
+				BD1BD91F1CAFBA0C00D218BC /* WXMsgService.m in Sources */,
+				BDC364EE1C8F2CA10063231B /* UIView+MBIBnspectable.m in Sources */,
+				BDB7586B1CAD344A00C543DB /* VedioPlayViewController.m in Sources */,
+				BD7C40101C8427110099BC68 /* THWebDataCache.m in Sources */,
+				BDA10D171CAE6EF40046C729 /* TTSConfig.m in Sources */,
+				BDB464281C894956000538EE /* WXFriendsModel.m in Sources */,
+				BDCFA8611C85747E00DABDC9 /* WXChatRoomController.m in Sources */,
+				BD7C400E1C8427110099BC68 /* THDownloadWebService.m in Sources */,
+				BDC364ED1C8F2CA10063231B /* UILabel+MBIBnsepectable.m in Sources */,
+				BDB758461CACE98300C543DB /* EmojiPictographs.m in Sources */,
+				BD7C401D1C8427A80099BC68 /* WXAccess.m in Sources */,
+				BDC364F01C8F2CA10063231B /* SGGlobal.m in Sources */,
+				BDB758441CACE98300C543DB /* EmojiEmoticons.m in Sources */,
+				BDC364CC1C8EE6FF0063231B /* UIView+Category.m in Sources */,
+				BDB758471CACE98300C543DB /* EmojiTransport.m in Sources */,
+				BD7C40111C8427110099BC68 /* THWebService.m in Sources */,
+				BD7C40171C8427110099BC68 /* WXLoginViewController.m in Sources */,
+				BD7C40121C8427110099BC68 /* THWebUtility.m in Sources */,
+				BDB758661CAD1C2800C543DB /* SGImageBrowser.m in Sources */,
+				BD6760141C82D2BB00A0B207 /* AppDelegate.m in Sources */,
+				BDB758451CACE98300C543DB /* EmojiMapSymbols.m in Sources */,
+				BD7C40141C8427110099BC68 /* WXHGlobal.m in Sources */,
+				BDAC5A271CB0C61F00EA3370 /* WXCoreModel.m in Sources */,
+				BDC364EC1C8F2CA10063231B /* UIButton+MBIBnspectable.m in Sources */,
+				BD7C40231C842CD20099BC68 /* WXFriendsController.m in Sources */,
+				BD6760181C82D2BB00A0B207 /* main.m in Sources */,
+				BDBAEAEE1C902C1100B45C01 /* WXAudio.m in Sources */,
+				BD7C400F1C8427110099BC68 /* THPostWebService.m in Sources */,
+				BD1BD9221CAFBA1F00D218BC /* WXVoiceService.m in Sources */,
+				BDCFA86E1C87E77A00DABDC9 /* WXMessage.m in Sources */,
+				BD7C400D1C8427110099BC68 /* THDispatchQueue.m in Sources */,
+				BDCFA86B1C87E75000DABDC9 /* WXContact.m in Sources */,
+				BDC364F81C8F310D0063231B /* WXService.m in Sources */,
+				BDC364F11C8F2CA10063231B /* SGMessageBar.m in Sources */,
+				BDE1C5E41C8C8B210008AAE0 /* WXFriendCell.m in Sources */,
+				BDB758431CACE98300C543DB /* Emoji.m in Sources */,
+				BDC364F51C8F2E3A0063231B /* SGSoundVibrate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD675FF01C82D1B700A0B207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD675FF91C82D1B700A0B207 /* WXHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD675FF61C82D1B700A0B207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD675FDA1C82D1B700A0B207 /* WXHelper */;
+			targetProxy = BD675FF51C82D1B700A0B207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD675FFB1C82D1B700A0B207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD675FFC1C82D1B700A0B207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD675FFE1C82D1B700A0B207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94B98BB5BFA014218FDC818 /* Pods-WXHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WXHelper/ThirdPart/Tools/IFly",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXHelper/Global/WXHelper.pch";
+				INFOPLIST_FILE = WXHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.WXHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BD675FFF1C82D1B700A0B207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BEE6328A67AB8B54AE92ED /* Pods-WXHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WXHelper/ThirdPart/Tools/IFly",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WXHelper/Global/WXHelper.pch";
+				INFOPLIST_FILE = WXHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.WXHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BD6760011C82D1B700A0B207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WXHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.WXHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXHelper.app/WXHelper";
+			};
+			name = Debug;
+		};
+		BD6760021C82D1B700A0B207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WXHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shanguo.WXHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXHelper.app/WXHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD675FD61C82D1B700A0B207 /* Build configuration list for PBXProject "WXHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD675FFB1C82D1B700A0B207 /* Debug */,
+				BD675FFC1C82D1B700A0B207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD675FFD1C82D1B700A0B207 /* Build configuration list for PBXNativeTarget "WXHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD675FFE1C82D1B700A0B207 /* Debug */,
+				BD675FFF1C82D1B700A0B207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6760001C82D1B700A0B207 /* Build configuration list for PBXNativeTarget "WXHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6760011C82D1B700A0B207 /* Debug */,
+				BD6760021C82D1B700A0B207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD675FD31C82D1B700A0B207 /* Project object */;
+}
